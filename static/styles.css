@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* General Body Styling for Dark Mode */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* Forms */
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    color: #cccccc;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Inputs and Selects */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+select {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 5px 0;
+    width: calc(100% - 16px);
+}
+
+/* Buttons */
+button {
+    background-color: #dc143c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Results Section */
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Individual Image Styling */
+#results img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 8px;
+    border: 2px solid #444444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+#results img:hover {
+    transform: scale(1.05);
+    border-color: #6200ea;
+}
+
+/* HR Styling */
+hr {
+    border: 1px solid #444444;
+    margin: 20px 0;
+}
